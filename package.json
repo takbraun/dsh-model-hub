@@ -73,6 +73,9 @@
       ]
     }
   },
+  "dependencies": {
+    "yaml": "^2.7.0"
+  },
   "scripts": {
     "test": "node --test lib/*.test.mjs lib/accounts/*.test.mjs lib/cost/*.test.mjs lib/demo/*.test.mjs lib/host/*.test.mjs bin/*.test.mjs lib/client/*.test.mjs"
   }
